@@ -11,9 +11,7 @@
         v-if="task.reminder"
         class="fas fa-bell"
       ></i>
-      <span v-else @click="$emit('toggle-reminder', task.id)"
-        >Add reminder</span
-      >
+      <span v-else @click="$emit('toggle-reminder', task.id)">Set Alarm</span>
     </p>
   </div>
 </template>
@@ -52,11 +50,15 @@ export default {
   justify-content: space-between;
 }
 span {
-  box-sizing: border-box;
   cursor: pointer;
+  font-size: 0.9rem;
   border: 1px solid purple;
-  border-radius: 10px;
-  padding: 2px;
-  font-size: 0.75rem;
+  border-radius: 5px;
+  padding: 0 3px;
+  background-color: purple;
+  color: #fff;
+}
+span:hover {
+  background-color: hotpink;
 }
 </style>

@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Interview",
+      "day": "March 9th at 10:30am",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Code for SF Meetup",
+      "day": "March 10th at 6:00pm",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Vet appointment",
+      "day": "March 27th at 11:30am",
+      "reminder": true
+    }
+  ]
+}
