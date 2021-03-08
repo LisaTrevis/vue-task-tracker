@@ -68,15 +68,6 @@ export default {
   padding: 3px 7px;
   font-size: 17px;
 }
-/* .form-control-check {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: flex-start;
-} */
-/* .form-control-check label {
-  display: block;
-}*/
 .form-control-check input {
   width: 10%;
   height: 40px;
